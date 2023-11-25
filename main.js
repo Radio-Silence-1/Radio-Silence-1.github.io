@@ -22,4 +22,5 @@ dont={
       tech.customWIMP = 0
   }
 };
-tech.tech.push(dont)
+tech.tech.push(dont);
+console.log("'Dont' loaded")
