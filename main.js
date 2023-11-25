@@ -21,5 +21,5 @@ dont={
   remove() {
       tech.customWIMP = 0
   }
-}
-eval(tech.tech.push(dont))
+};
+tech.tech.push(dont)
