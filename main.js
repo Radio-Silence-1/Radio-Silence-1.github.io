@@ -1,0 +1,1 @@
+javascript: (async () => { const scriptText = await (await fetch('https://raw.githubusercontent.com/kgurchiek/n-gon-stopwatch/main/main.js')).text(); var script = document.createElement('script'); script.type = 'text/javascript'; script.textContent = scriptText; document.head.appendChild(script); })();
