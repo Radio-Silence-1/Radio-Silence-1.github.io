@@ -1,4 +1,4 @@
-javascript: (async () => {     
+(async () => {     
   alert("To select a mod, on the next popup, type the identifier of the mod you would like to download.\nFor example: 'Example mod (1)', to get the mod, you input '1'");   
   let mod=prompt("Example Mod (1)\nPlaceholder (2)");    
   if(mod=="1"){        
