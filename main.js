@@ -23,8 +23,8 @@ dont={
         					const angle = Math.atan2(deltaY, deltaX);
         					const pupilX = Math.cos(angle) * (radius - pupilRadius);
         					const pupilY = Math.sin(angle) * (radius - pupilRadius);
-        					const irisX = Math.cos(angle) * ((pupilRadius - irisRadius)+pupilRadius-10);
-        					const irisY = Math.sin(angle) * ((pupilRadius - irisRadius)+pupilRadius-10);
+        					const irisX = Math.cos(angle) * ((pupilRadius - irisRadius)+(pupilRadius*0.8));
+        					const irisY = Math.sin(angle) * ((pupilRadius - irisRadius)+(pupilRadius*0.8));
         					ctx.beginPath();
         					ctx.arc(x, y, radius, 0, 2 * Math.PI);
         					ctx.fillStyle = 'white';
