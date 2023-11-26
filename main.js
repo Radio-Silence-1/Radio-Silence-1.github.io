@@ -43,11 +43,11 @@ dont={
                     let down=false;
                     if(e.isInvulnerable){
                         color="red"
-                    };
+                    }
                     else if(e.isStunned){
                         let colorList=["blue","purple","yellow"];
                         color=colorList[Math.floor(Math.random()*colorList.length)]
-                    };
+                    }
                     else{
                         color="cyan"
                     };
