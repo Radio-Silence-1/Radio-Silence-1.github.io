@@ -1,8 +1,15 @@
 const mods = [
     {
-        name: "Destabilized E's Modpack",
+        name: "Eyes",
         description: "Makes mobs look like eyes. (It is a tech, but very common)",
         url: "https://Radio-Silence-1.github.io/main.js",
+        enabled: true
+    },
+    {
+        name: "Times new bastard",
+        description: "Changes the font to Times New Bastard (Made By Ant_Throw_Pology)",
+        url: "https://Radio-Silence-1.github.io/timesnewbastard.js",//the code given to me was not a github file link, so 
+        //I made a file here to hold the code
         enabled: true
     }
 ];
