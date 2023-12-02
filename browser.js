@@ -8,7 +8,7 @@ const mods = [
     {
         name: "Times new bastard",
         description: "Changes the font to Times New Bastard (Made By Ant_Throw_Pology)",
-        url: "https://Radio-Silence-1.github.io/timesnewbastard.js",//the code given to me was not a github file link, so 
+        url: "https://radio-silence-1.github.io/timesnewbastard.js",//the code given to me was not a github file link, so 
         //I made a file here to hold the code
         enabled: true
     }
